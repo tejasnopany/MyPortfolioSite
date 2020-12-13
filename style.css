@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;1,800&display=swap');
+
+:root{
+    --primary-color:#10B981;
+
+    --secondary-color:#065F46;
+    --gray:gray;
+    --white:white;
+    --offwhite:#D1FAE5;
+   }
+
+body{
+    font-family: 'JetBrains Mono', monospace;
+    margin:0px;
+}
+hr{
+    margin:2rem  0rem;
+}
+.container{
+    padding-left: 1rem ;
+    padding-right: 1rem;
+}
+.normal{
+max-width: 600px;
+margin: auto;
+}
+
+/** Links **/
+.link{
+    text-decoration: none;
+    padding:0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+.link-primary{
+    background-color: var(--primary-color);
+    color:white;
+}
+.secondary-link{
+    color: var(--secondary-color);
+    border:solid var(--primary-color) 1px;
+}
+
+/** Lists **/
+.list-non-bullets{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding:0rem 0.5rem;
+}
+/** navigation **/
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+/** Header **/
+.hero{
+    padding:2rem 0rem;
+}
+.hero-image{
+    max-width: 350px;
+    display: block;
+    margin:auto; 
+}
+.hero .hero-heading{
+    text-align: center;
+    font-size: 2rem;
+    padding:0.5rem;
+    color:var(--gray);
+}
+
+/** Section **/
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+
+}
+
+.ow {
+    background-color: var(--offwhite);
+}
+
+/** footers **/
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 4rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link {
+    color: white
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+.footer a{
+    font-weight: bolder;
+}
+p{
+    max-width: 600px;
+    margin: auto;
+}
+.twitter-timeline {
+    max-width: 400px;
+    max-height: 400px;
+}
