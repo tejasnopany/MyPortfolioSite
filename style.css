@@ -2,7 +2,6 @@
 
 :root{
     --primary-color:#10B981;
-
     --secondary-color:#065F46;
     --gray:gray;
     --white:white;
@@ -61,6 +60,9 @@ margin: auto;
 .navigation .nav-brand {
     font-weight: bolder;
 }
+.navigation .nav-brand:hover{
+    transform: scaleY(3.5);
+}
 
 .navigation .nav-pills {
     text-align: right;
@@ -72,6 +74,9 @@ margin: auto;
 
 .navigation .link-active {
     font-weight: bold;
+}
+.navigation .link:hover{
+    background-color: var(--secondary-color);
 }
 /** Header **/
 .hero{
