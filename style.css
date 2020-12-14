@@ -64,6 +64,7 @@ margin: auto;
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
+    /* position: sticky; */
 }
 
 .navigation .nav-brand {
@@ -71,9 +72,6 @@ margin: auto;
 }
 .navigation .nav-brand:hover{
     transform: scaleY(1.5);
-    /* text-decoration: underline;
-    text-decoration-color: var(--secondary-color); */
- 
 }
 
 .navigation .nav-pills {
