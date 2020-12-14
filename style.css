@@ -6,11 +6,12 @@
     --gray:gray;
     --white:white;
     --offwhite:#D1FAE5;
-   }
+}
 
 body{
     font-family: 'JetBrains Mono', monospace;
     margin:0px;
+    scroll-behavior: smooth;
 }
 hr{
     margin:2rem  0rem;
@@ -31,10 +32,18 @@ margin: auto;
     border-radius: 0.5rem;
 }
 .link-primary{
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 12rem; 
+    width: 30%;
+    height: 30px; */
     background-color: var(--primary-color);
     color:white;
+    margin-top: 1rem;
+    
 }
-.secondary-link{
+.link-secondary{
     color: var(--secondary-color);
     border:solid var(--primary-color) 1px;
 }
@@ -61,7 +70,10 @@ margin: auto;
     font-weight: bolder;
 }
 .navigation .nav-brand:hover{
-    transform: scaleY(3.5);
+    transform: scaleY(1.5);
+    /* text-decoration: underline;
+    text-decoration-color: var(--secondary-color); */
+ 
 }
 
 .navigation .nav-pills {
