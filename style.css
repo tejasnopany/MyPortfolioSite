@@ -151,3 +151,8 @@ p{
     max-width: 400px;
     max-height: 400px;
 }
+.future{
+    background-color: grey;
+    max-width: 600px;
+    margin:auto;
+}
